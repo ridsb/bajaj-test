@@ -26,7 +26,7 @@ function App() {
       const parsedInput = JSON.parse(jsonInput);
       console.log(parsedInput);
       const res = await axios.post(
-        "https://bajaj-finserv-1bi7.onrender.com/bfhl",
+        "https://bajaj-test-uxfm.onrender.com/bfhl",
         { data: parsedInput.data }
       );
       console.log(res.data);
