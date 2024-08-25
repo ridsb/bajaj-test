@@ -74,6 +74,7 @@ function App() {
   return (
     <div className="App">
       <h1>{"21BCE2449"}</h1>
+      <h2>Use CTRL + CLICK / CTRL + ENTER to select multiple filters</h2>
       <input
         type="text"
         value={jsonInput}
